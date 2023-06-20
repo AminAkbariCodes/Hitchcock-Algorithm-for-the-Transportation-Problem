@@ -107,6 +107,8 @@ The main menu provides several options:
 
 2. **User Manual**: This option provides a detailed description of the software and instructions on how to use it.
 
+![Capture_2023_06_20_12_16_10_419](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/5a7eb75c-4059-4297-b595-abf4dc7abf16)
+
 3. **About**: This section provides a brief about the developer and contains links to various resources:
    - UCI ITS website: [https://its.uci.edu/](https://its.uci.edu/)
    - Professor McNally's website: [https://its.uci.edu/~mmcnally](https://its.uci.edu/~mmcnally)
@@ -114,6 +116,8 @@ The main menu provides several options:
    - Developer's Email: [makbarik@uci.edu](mailto:makbarik@uci.edu)
    - Developer's LinkedIn: [https://linkedin.com/in/amin-akbari](https://linkedin.com/in/amin-akbari)
    - Back: This button will take you back to the introductory screen. 
+
+![Capture_2023_06_20_12_16_15_203](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/2c3998a6-4322-453a-ab91-d79ae53a7fc5)
 
 4. **Exit**: Clicking this will close the program.
 
