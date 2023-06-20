@@ -210,10 +210,11 @@ Here are the resulting tableaux for the different IFS methods:
 ![Capture_2023_06_20_13_34_01_436](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/f1ba4ada-e240-4963-b856-937d809f5eec)
 ![Capture_2023_06_20_13_34_04_769](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/71617657-db71-4ac5-aa5e-4284b7bdae3e)
 
-- Final Solution: 
-![Capture_2023_06_20_13_34_08_497](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fc8f7a3e-79b9-4296-ba73-cbbb5796d37e)
 
 4. After the last step, you will arrive at the optimal solution which can be verified against the solution provided on the course website.
+
+![Capture_2023_06_20_13_34_08_497](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fc8f7a3e-79b9-4296-ba73-cbbb5796d37e)
+
 
 # Handling Unequal Supply and Demand
 
