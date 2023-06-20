@@ -130,17 +130,20 @@ Choose the option that suits your needs to proceed.
 
 Click on the "Start the Algorithm" button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs).
 
-![Data Input Image](link_to_data_input_image)
+![Capture_2023_06_20_12_58_28_60](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/7a0629ae-13b0-4656-b0a8-a6a96a44245e)
+
 
 After entering the data, the initial tableau will be displayed.
 
-![Initial Tableau Image](link_to_initial_tableau_image)
+![Capture_2023_06_20_12_58_17_619](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/2570346c-a6dd-4acc-9b63-f43f91299eb0)
+
 
 ## User Interface
 
 Once the algorithm starts, you will see a menu with several options:
 
-![User Interface Image](link_to_user_interface_image)
+![Capture_2023_06_20_12_58_48_42](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/9c8a80f4-7d43-4fbc-9268-83af07da1ef0)
+
 
 - **File Menu**: Here you can open a saved problem data, restart the tableau and all data, or exit the application.
 - **Algorithm Menu**: Under this menu, you have options to enter new problem data or modify the current data, and select the Initial Feasible Solution (IFS) method. Options include NWCR (Northwest Corner Rule), MCR (Minimum Cost Rule), or VA (Vogel's Approximation).
