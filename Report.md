@@ -1,5 +1,5 @@
 <p align="center">
-  <![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/f91a76bf-d4ba-491e-92b9-ab3bf445e164)>
+  <[image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/f91a76bf-d4ba-491e-92b9-ab3bf445e164)>
 </p>
 
 <h1 align="center">University of California, Irvine</h1>
