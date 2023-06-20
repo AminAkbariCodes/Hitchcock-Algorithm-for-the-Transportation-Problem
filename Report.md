@@ -234,3 +234,22 @@ The tableau after adding the dummy node would look something like this:
 
 This new row and column ensure that the total supply equals the total demand, allowing the algorithm to proceed.
 
+
+## Software Performance and Limitations
+
+The Hitchcock Transportation Algorithm implementation in this software has been designed with efficiency in mind, allowing it to handle transportation networks with a high number of nodes effectively. Indeed, our testing has shown that the software can solve problems involving more than 50 nodes.
+
+However, it's worth noting that while the algorithm itself can handle large networks, the graphical representation and tableau can become overloaded due to the sheer size of the matrices involved. For such large networks, the graphical user interface may not display the results optimally due to space constraints.
+
+Nonetheless, users can leverage the source code directly to solve problems involving large networks and retrieve results without relying on the graphical explanation. It's important to mention that this assertion is based on our preliminary testing where we used randomly generated examples. While the code ran efficiently and the final solutions for different Initial Feasible Solution methods were consistent, this does not constitute comprehensive validation of the software's performance.
+
+The graphical representation was primarily designed and optimized for problems of moderate size, maintaining a balance between usability, comprehensibility, and aesthetic appeal.
+
+## Future Work and Conclusion
+
+There are always opportunities to improve and enhance a software tool, and this one is no exception. Future work might involve refining the graphical user interface to handle larger problems more effectively or including additional algorithms for solving transportation problems. Additionally, a more comprehensive validation process could be conducted, involving a wide variety of test cases and more extensive performance profiling.
+
+In conclusion, this software provides an efficient and user-friendly tool for understanding and solving transportation problems using the Hitchcock Transportation Algorithm. Despite some limitations with the graphical representation of larger problems, the software remains an effective and valuable resource in the field of operations research and transportation studies.
+
+We encourage users to explore the software, provide feedback, and contribute to its continued development.
+
