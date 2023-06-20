@@ -1,4 +1,4 @@
-![UCI Logo](url-of-uci-logo)
+!![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/dd83d275-284e-4f64-9419-d32f574dfe5c)
 
 # University of California, Irvine
 ## Department of Civil and Environmental Engineering
