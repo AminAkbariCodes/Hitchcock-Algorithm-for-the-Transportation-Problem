@@ -91,7 +91,7 @@ These classes are responsible for providing a user-friendly introduction and men
 
 When you first open the program, you'll be greeted with an introductory screen that covers the entire window.
 
-![Intro Screen GIF](link_to_gif)
+![Intro Screen GIF](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/af8c0170-864a-4c7b-b6af-f45b610083d5)
 
 Click anywhere on this screen to continue to the main menu.
 
@@ -111,9 +111,8 @@ The main menu provides several options:
    - Developer's GitHub page: [https://github.com/AminAkbariCodes](https://github.com/AminAkbariCodes)
    - Developer's Email: [makbarik@uci.edu](mailto:makbarik@uci.edu)
    - Developer's LinkedIn: [https://linkedin.com/in/amin-akbari](https://linkedin.com/in/amin-akbari)
+   - Back: This button will take you back to the introductory screen. 
 
-4. **Back**: This button will take you back to the introductory screen.
-
-5. **Exit**: Clicking this will close the program.
+4. **Exit**: Clicking this will close the program.
 
 Choose the option that suits your needs to proceed.
