@@ -84,3 +84,36 @@ This function prompts the user to enter the necessary data for the problem.
 
 These classes are responsible for providing a user-friendly introduction and menu to guide users through the use of the application.
 
+
+# User Guide
+
+## Initial Screen
+
+When you first open the program, you'll be greeted with an introductory screen that covers the entire window.
+
+![Intro Screen GIF](link_to_gif)
+
+Click anywhere on this screen to continue to the main menu.
+
+## Main Menu
+
+The main menu provides several options:
+
+![Main Menu Image](link_to_main_menu_image)
+
+1. **Start the Algorithm**: Click this button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs), after which the algorithm will begin solving the problem.
+
+2. **User Manual**: This option provides a detailed description of the software and instructions on how to use it.
+
+3. **About**: This section provides a brief about the developer and contains links to various resources:
+   - UCI ITS website: [https://its.uci.edu/](https://its.uci.edu/)
+   - Professor McNally's website: [https://its.uci.edu/~mmcnally](https://its.uci.edu/~mmcnally)
+   - Developer's GitHub page: [https://github.com/AminAkbariCodes](https://github.com/AminAkbariCodes)
+   - Developer's Email: [makbarik@uci.edu](mailto:makbarik@uci.edu)
+   - Developer's LinkedIn: [https://linkedin.com/in/amin-akbari](https://linkedin.com/in/amin-akbari)
+
+4. **Back**: This button will take you back to the introductory screen.
+
+5. **Exit**: Clicking this will close the program.
+
+Choose the option that suits your needs to proceed.
