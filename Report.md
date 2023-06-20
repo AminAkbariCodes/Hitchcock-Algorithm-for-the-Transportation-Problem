@@ -143,12 +143,12 @@ Once the algorithm starts, you will see a menu with several options:
 ![User Interface Image](link_to_user_interface_image)
 
 - **File Menu**: Here you can open a saved problem data, restart the tableau and all data, or exit the application.
-- **Algorithm Menu**: Under this menu, you have options to enter new problem data or modify the current data, and select the Initial Feasible Solution (IFS) method.
-- **View Menu**: This menu allows you to capture a screenshot of the current state of the tableau and save it, or print out the current state of the tableau.
+- **Algorithm Menu**: Under this menu, you have options to enter new problem data or modify the current data, and select the Initial Feasible Solution (IFS) method. Options include NWCR (Northwest Corner Rule), MCR (Minimum Cost Rule), or VA (Vogel's Approximation).
+- **View Menu**: This menu allows you to capture a screenshot of the current state of the tableau and save it, or print out the current state of the tableau. Users can save each step of the tableau as a PDF or PNG file in their desired locations.
 - **Help Menu**: Here you can find information about the author and the program, as well as details on how to reach out for help.
 
 Below the menus, there are navigation buttons. You can use the "Back" button to revert to the previous step in the algorithm, or the "Next" button to move to the next step.
 
 Here's a gif that illustrates the process:
 
-![Running the Algorithm GIF](link_to_algorithm_gif)
+![Intro Screen GIF](2.gif)
