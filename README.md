@@ -22,7 +22,7 @@ This is a short description of my project.
 
 ## Running the Executable
 
-If you want to run the precompiled executables, you can find them in the `dist` directory. There are two executables: one for 64-bit Windows systems (`228A-Final_Project_64.exe`) and one for 32-bit systems (`228A-Final_Project_32.exe`).
+If you want to run the precompiled executables, you can find them in the `dist` directory. There are two executables: one for 64-bit Windows systems (`228A-Final_Project_64.exe`) and one for 32-bit systems (`228A-Final_Project_32.exe`). Link: https://drive.google.com/drive/folders/1fJ5sy59gFJrIZ_VTA0XfjuvOi-ROtLhT?usp=sharing
 
 To run the 64-bit executable, for example, you would run: `dist/228A-Final_Project_64.exe`.
 
