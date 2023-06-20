@@ -35,6 +35,58 @@ One of the most widely used methods for solving transportation problems is the H
 
 In this project, we've implemented the Hitchcock Transportation Algorithm in a Python application. We aimed to design an efficient, user-friendly tool that can take in supply and demand data, perform the necessary calculations, and visually represent the steps and results of the algorithm. We hope that this tool can serve as a valuable resource for understanding and applying the Hitchcock Transportation Algorithm.
 
-To use the tool, download the provided executable file and follow the instructions in the user manual.
+# Overview
 
-(Note: The executable file is designed for Windows 64-bit systems. If you require a 32-bit version, please contact us.)
+Our implementation of the Hitchcock Transportation Algorithm in Python involves several classes and methods that interact with one another to solve the problem. Here's a brief explanation of each part:
+
+## TransportationProblem class
+
+The core of our application. This class takes in the number of supply and demand nodes, their respective values, and the transportation costs. It then uses various methods to solve the transportation problem:
+
+![Image of TransportationProblem Class](link_to_image)
+
+- `__init__`: Initializes the problem with the given parameters.
+- `balance_problem`: Balances the supply and demand to ensure the total supply equals the total demand.
+- `northwest_corner_rule`, `minimum_cost_rule`, `vogel_approximation_method`: These are different methods used to find an initial feasible solution to the problem.
+- `calculate_shadow_prices`, `calculate_opportunity_costs`, `calculate_deltas`: These methods are used to calculate the necessary values for the stepping-stone (or MODI) method.
+- `find_pivot_cell`: Identifies the cell to pivot on in the current iteration.
+- `total_cost`: Calculates the total cost of the current solution.
+- `identify_loop`: Identifies the loop formed by the pivot cell.
+- `update_allocations`: Updates the allocations according to the loop and pivot cell.
+- `has_positive_deltas`: Checks if there are any positive deltas left, i.e., if there are any improvements to be made.
+- `generate_state`: Generates the current state of the problem.
+- `reset`: Resets the problem to its initial state.
+
+## State class
+
+Keeps track of the current state of the problem, including allocations, u_values, v_values, and the iteration number.
+
+![Image of State Class](link_to_image)
+
+## CustomCell class
+
+A helper class used for creating custom cells in the Tkinter GUI. 
+
+![Image of CustomCell Class](link_to_image)
+
+## DataInputDialog class
+
+A helper class for creating input dialogs in the Tkinter GUI. 
+
+![Image of DataInputDialog Class](link_to_image)
+
+## TableauGUI class
+
+The main class for creating the graphical user interface. 
+
+![Image of TableauGUI Class](link_to_image)
+
+## get_inputs function
+
+This function prompts the user to enter the necessary data for the problem.
+
+## Introduction and Menu classes
+
+These classes are responsible for providing a user-friendly introduction and menu to guide users through the use of the application.
+
+![Image of Introduction and Menu classes](link_to_image)
