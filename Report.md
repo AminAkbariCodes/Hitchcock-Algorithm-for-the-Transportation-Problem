@@ -253,3 +253,6 @@ In conclusion, this software provides an efficient and user-friendly tool for un
 
 We encourage users to explore the software, provide feedback, and contribute to its continued development.
 
+## References
+
+1. [CEE 228A URBAN TRANSPORTATION NETWORKS I course page](https://its.uci.edu/~mmcnally/cee/cee228a/)
