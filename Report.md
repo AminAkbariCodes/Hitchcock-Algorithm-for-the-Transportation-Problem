@@ -186,22 +186,28 @@ Here are the resulting tableaux for the different IFS methods:
 
 - NWCR:
 
-![NWCR Image](link_to_nwcr_image)
+![Capture_2023_06_20_13_33_38_856](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/b864005e-962b-4efd-b9b7-32ff4fa088da)
+
 
 - MCR:
 
-![MCR Image](link_to_mcr_image)
+![Capture_2023_06_20_13_33_21_302](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/193e0cbb-498a-4f1f-8d31-5d7ca95eab5f)
+
 
 - VA:
 
-![VA Image](link_to_va_image)
+![Capture_2023_06_20_13_33_32_165](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/ce62b5e1-3b01-4d0e-84f4-a35aa01e0b9f)
 
 3. Now, let's solve the problem using the Northwest Corner Rule (NWCR). The algorithm will iterate through the steps of calculating shadow prices, opportunity costs, and deltas, finding the pivot cell, identifying the loop, and updating the allocations. Here are the screenshots for each step:
 
-![Step 1 Image](link_to_step_1_image)
-![Step 2 Image](link_to_step_2_image)
-...continue this pattern until...
-![Step 7 Image](link_to_step_7_image)
+![Capture_2023_06_20_13_33_45_167](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/6d5ae74f-6548-4086-968a-db5da4182e59)
+![Capture_2023_06_20_13_33_48_462](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/3c16f9b6-801e-4800-bc57-610985059c0d)
+![Capture_2023_06_20_13_33_54_425](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/0cc5a56b-b369-44ba-9b8c-456f0875a706)
+![Capture_2023_06_20_13_33_59_56](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/b73e9f5e-a1ea-4c30-bd4e-1355bff8bca3)
+![Capture_2023_06_20_13_34_01_436](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/f1ba4ada-e240-4963-b856-937d809f5eec)
+![Capture_2023_06_20_13_34_04_769](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/71617657-db71-4ac5-aa5e-4284b7bdae3e)
+![Capture_2023_06_20_13_34_08_497](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fc8f7a3e-79b9-4296-ba73-cbbb5796d37e)
+![Capture_2023_06_20_13_34_12_578](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fa5072e4-545e-4167-833b-5a67b45d52cd)
 
 4. After the last step, you will arrive at the optimal solution which can be verified against the solution provided on the course website.
 
