@@ -1,6 +1,7 @@
 <p align="center">
-  <img src=![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/91883895-9c3b-43db-8054-ee7dd802de8b)>
+  <img src="https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/91883895-9c3b-43db-8054-ee7dd802de8b">
 </p>
+
 
 <h1 align="center">University of California, Irvine</h1>
 <h2 align="center">Department of Civil and Environmental Engineering</h2>
