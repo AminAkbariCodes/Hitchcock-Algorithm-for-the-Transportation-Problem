@@ -155,3 +155,67 @@ Below the menus, there are navigation buttons. You can use the "Back" button to 
 Here's a gif that illustrates the process:
 
 ![Intro Screen GIF](2.gif)
+
+
+# Example Walkthrough
+
+For this example, we will be using data from an exercise available on the [UCI course website](https://its.uci.edu/~mmcnally/cee/cee228a/):
+
+Number of supply nodes: 3
+Number of demand nodes: 3
+Supply values: [40, 30, 30]
+Demand values: [60, 20, 20]
+Transportation costs: 
+
+| 16 | 10 |  2 |
+| 12 |  4 |  6 |
+|  9 |  7 |  5 |
+
+
+Here are the steps to input this data and solve the problem:
+
+1. Start the algorithm and input the data as shown above.
+
+2. Choose the Initial Feasible Solution (IFS) method. We will demonstrate using all three options: Northwest Corner Rule (NWCR), Minimum Cost Rule (MCR), and Vogel's Approximation (VA).
+
+Here are the resulting tableaux for the different IFS methods:
+
+- NWCR:
+
+![NWCR Image](link_to_nwcr_image)
+
+- MCR:
+
+![MCR Image](link_to_mcr_image)
+
+- VA:
+
+![VA Image](link_to_va_image)
+
+3. Now, let's solve the problem using the Northwest Corner Rule (NWCR). The algorithm will iterate through the steps of calculating shadow prices, opportunity costs, and deltas, finding the pivot cell, identifying the loop, and updating the allocations. Here are the screenshots for each step:
+
+![Step 1 Image](link_to_step_1_image)
+![Step 2 Image](link_to_step_2_image)
+...continue this pattern until...
+![Step 7 Image](link_to_step_7_image)
+
+4. After the last step, you will arrive at the optimal solution which can be verified against the solution provided on the course website.
+
+# Handling Unequal Supply and Demand
+
+The software is capable of handling scenarios where the total supply does not equal the total demand. It achieves this by adding a "dummy" node. The transportation cost assigned to this dummy node is a large value, which ensures that it will not be part of the optimal solution unless absolutely necessary (i.e., when there's no other path).
+
+This strategy effectively balances the total supply and demand without affecting the integrity of the optimal solution.
+
+For instance, if we had an additional supply node with a supply value of 10 and no corresponding demand, the software would add a dummy demand node with a demand value of 10 and a very high transportation cost.
+
+The tableau after adding the dummy node would look something like this:
+
+| 16 | 10 | 2 | High |
+|----|----|---|------|
+| 12 |  4 | 6 | High |
+|  9 |  7 | 5 | High |
+| High | High | High | 0 |
+
+This new row and column ensure that the total supply equals the total demand, allowing the algorithm to proceed.
+
