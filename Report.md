@@ -167,9 +167,12 @@ Supply values: [40, 30, 30]
 Demand values: [60, 20, 20]
 Transportation costs: 
 
-| 16 | 10 |  2 |
-| 12 |  4 |  6 |
-|  9 |  7 |  5 |
+|   |   |   |
+|---|---|---|
+| 16| 10| 2 |
+| 12|  4| 6 |
+|  9|  7| 5 |
+
 
 
 Here are the steps to input this data and solve the problem:
