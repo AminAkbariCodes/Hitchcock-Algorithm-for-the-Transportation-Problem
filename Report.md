@@ -200,14 +200,18 @@ Here are the resulting tableaux for the different IFS methods:
 
 3. Now, let's solve the problem using the Northwest Corner Rule (NWCR). The algorithm will iterate through the steps of calculating shadow prices, opportunity costs, and deltas, finding the pivot cell, identifying the loop, and updating the allocations. Here are the screenshots for each step:
 
+- Iteration 1: 
 ![Capture_2023_06_20_13_33_45_167](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/6d5ae74f-6548-4086-968a-db5da4182e59)
 ![Capture_2023_06_20_13_33_48_462](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/3c16f9b6-801e-4800-bc57-610985059c0d)
 ![Capture_2023_06_20_13_33_54_425](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/0cc5a56b-b369-44ba-9b8c-456f0875a706)
+
+- Iteration 2: 
 ![Capture_2023_06_20_13_33_59_56](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/b73e9f5e-a1ea-4c30-bd4e-1355bff8bca3)
 ![Capture_2023_06_20_13_34_01_436](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/f1ba4ada-e240-4963-b856-937d809f5eec)
 ![Capture_2023_06_20_13_34_04_769](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/71617657-db71-4ac5-aa5e-4284b7bdae3e)
+
+- Final Solution: 
 ![Capture_2023_06_20_13_34_08_497](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fc8f7a3e-79b9-4296-ba73-cbbb5796d37e)
-![Capture_2023_06_20_13_34_12_578](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fa5072e4-545e-4167-833b-5a67b45d52cd)
 
 4. After the last step, you will arrive at the optimal solution which can be verified against the solution provided on the course website.
 
