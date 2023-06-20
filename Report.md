@@ -122,3 +122,33 @@ The main menu provides several options:
 4. **Exit**: Clicking this will close the program.
 
 Choose the option that suits your needs to proceed.
+
+
+# Running the Algorithm
+
+## Starting the Algorithm
+
+Click on the "Start the Algorithm" button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs).
+
+![Data Input Image](link_to_data_input_image)
+
+After entering the data, the initial tableau will be displayed.
+
+![Initial Tableau Image](link_to_initial_tableau_image)
+
+## User Interface
+
+Once the algorithm starts, you will see a menu with several options:
+
+![User Interface Image](link_to_user_interface_image)
+
+- **File Menu**: Here you can open a saved problem data, restart the tableau and all data, or exit the application.
+- **Algorithm Menu**: Under this menu, you have options to enter new problem data or modify the current data, and select the Initial Feasible Solution (IFS) method.
+- **View Menu**: This menu allows you to capture a screenshot of the current state of the tableau and save it, or print out the current state of the tableau.
+- **Help Menu**: Here you can find information about the author and the program, as well as details on how to reach out for help.
+
+Below the menus, there are navigation buttons. You can use the "Back" button to revert to the previous step in the algorithm, or the "Next" button to move to the next step.
+
+Here's a gif that illustrates the process:
+
+![Running the Algorithm GIF](link_to_algorithm_gif)
