@@ -100,7 +100,8 @@ Click anywhere on this screen to continue to the main menu.
 
 The main menu provides several options:
 
-![Main Menu Image](link_to_main_menu_image)
+![Capture_2023_06_20_12_14_05_317](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/41b7afb1-6445-425b-962e-581d2d78562d)
+
 
 1. **Start the Algorithm**: Click this button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs), after which the algorithm will begin solving the problem.
 
