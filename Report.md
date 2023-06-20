@@ -91,7 +91,7 @@ These classes are responsible for providing a user-friendly introduction and men
 
 When you first open the program, you'll be greeted with an introductory screen that covers the entire window.
 
-![Intro Screen GIF](assets/132245731/af8c0170-864a-4c7b-b6af-f45b610083d5.gif)
+![Intro Screen GIF](assets/1.gif)
 
 Click anywhere on this screen to continue to the main menu.
 
