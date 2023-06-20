@@ -43,7 +43,6 @@ Our implementation of the Hitchcock Transportation Algorithm in Python involves 
 
 The core of our application. This class takes in the number of supply and demand nodes, their respective values, and the transportation costs. It then uses various methods to solve the transportation problem:
 
-![Image of TransportationProblem Class](link_to_image)
 
 - `__init__`: Initializes the problem with the given parameters.
 - `balance_problem`: Balances the supply and demand to ensure the total supply equals the total demand.
@@ -61,25 +60,21 @@ The core of our application. This class takes in the number of supply and demand
 
 Keeps track of the current state of the problem, including allocations, u_values, v_values, and the iteration number.
 
-![Image of State Class](link_to_image)
 
 ## CustomCell class
 
 A helper class used for creating custom cells in the Tkinter GUI. 
 
-![Image of CustomCell Class](link_to_image)
 
 ## DataInputDialog class
 
 A helper class for creating input dialogs in the Tkinter GUI. 
 
-![Image of DataInputDialog Class](link_to_image)
 
 ## TableauGUI class
 
 The main class for creating the graphical user interface. 
 
-![Image of TableauGUI Class](link_to_image)
 
 ## get_inputs function
 
@@ -89,4 +84,3 @@ This function prompts the user to enter the necessary data for the problem.
 
 These classes are responsible for providing a user-friendly introduction and menu to guide users through the use of the application.
 
-![Image of Introduction and Menu classes](link_to_image)
