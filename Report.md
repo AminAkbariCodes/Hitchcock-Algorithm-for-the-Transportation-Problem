@@ -62,7 +62,6 @@ Upon the execution of the Python application, users encounter an introductory in
 
 ![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/81f60338-03ed-457e-bd9b-3ee460e508e7)
 
-![Intro Screen GIF](1.gif)
 
 Click anywhere on this screen to continue to the main menu.
 
@@ -92,36 +91,50 @@ The primary menu is designed with a user-friendly approach and presents a variet
 
 Users can select any of the options as per their requirements to proceed further in the application.
 
+![Intro Screen GIF](1.gif)
+
 
 # Running the Algorithm
 
 ## Starting the Algorithm
 
-Click on the "Start the Algorithm" button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs).
+The Hitchcock Transportation Algorithm is set into action by clicking on the "Start the Algorithm" button in the main menu. Upon selection, users are guided to input essential data. This data includes the number of supply and demand nodes, their corresponding values, and the costs associated with transportation.
 
 ![Capture_2023_06_20_12_58_28_60](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/7a0629ae-13b0-4656-b0a8-a6a96a44245e)
 
 
-After entering the data, the initial tableau will be displayed.
+After the successful submission of these data, the initial tableau – a critical component of the algorithm that visually represents the problem data and the progress of the algorithm – is showcased to the users.
 
 ![Capture_2023_06_20_12_58_17_619](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/2570346c-a6dd-4acc-9b63-f43f91299eb0)
 
 
 ## User Interface
 
-Once the algorithm starts, you will see a menu with several options:
+When the Hitchcock Transportation Algorithm commences, users are presented with a comprehensive menu hosting several options:
 
 ![Capture_2023_06_20_12_58_48_42](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/9c8a80f4-7d43-4fbc-9268-83af07da1ef0)
 
+- **File Menu**: This menu serves as the tool for managing problem data. Users can utilize it to load previously saved problem data, restart the tableau and all associated data, or exit the application entirely.
 
-- **File Menu**: Here you can open a saved problem data, restart the tableau and all data, or exit the application.
-- **Algorithm Menu**: Under this menu, you have options to enter new problem data or modify the current data, and select the Initial Feasible Solution (IFS) method. Options include NWCR (Northwest Corner Rule), MCR (Minimum Cost Rule), or VA (Vogel's Approximation).
-- **View Menu**: This menu allows you to capture a screenshot of the current state of the tableau and save it, or print out the current state of the tableau. Users can save each step of the tableau as a PDF or PNG file in their desired locations.
-- **Help Menu**: Here you can find information about the author and the program, as well as details on how to reach out for help.
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/ee42a453-fe9c-4d67-bbed-9547adac4f96)
+
+- **Algorithm Menu**: This menu is an interactive part of the application that allows users to engage with the algorithm actively. Users can input new problem data or modify the existing data. It also provides the choice to select the Initial Feasible Solution (IFS) method. Users have the option to opt for the Northwest Corner Rule (NWCR), Minimum Cost Rule (MCR), or Vogel’s Approximation (VA).
+
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/d1864a7c-89bb-4019-a2f7-cf1105360ffc)
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/a3cbd0fb-bfbd-4641-9831-66ffde79fa1f)
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/d76de314-e86c-472d-a6e0-d2a59d27bb0d)
+
+- **View Menu**: The View Menu enhances the user experience by enabling them to capture a snapshot of the tableau at any given state. They can save this snapshot for later reference or print it directly from the application. Users can save each tableau snapshot as a PDF or PNG file in their preferred locations.
+
+  ![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/49083f71-ae37-47da-8849-55b60d2ced42)
+
+- **Help Menu**: The Help Menu serves as a hub for additional information about the application and the developer. Users can access details on how to get help and support when required.
+
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/42f17aa8-efeb-48a3-a94d-a92c8f576d18)
 
 Below the menus, there are navigation buttons. You can use the "Back" button to revert to the previous step in the algorithm, or the "Next" button to move to the next step.
 
-Here's a gif that illustrates the process:
+In addition to the menus, there are navigational buttons available to users. The "Back" button enables users to go back to the previous step of the algorithm, while the "Next" button allows for the progression to the following step. This interactive feature ensures users have full control over the pace at which they navigate the algorithm.
 
 ![Intro Screen GIF](2.gif)
 
