@@ -17,7 +17,6 @@ Our implementation of the Hitchcock Transportation Algorithm in Python involves 
 
 The core of our application. This class takes in the number of supply and demand nodes, their respective values, and the transportation costs. It then uses various methods to solve the transportation problem:
 
-
 - `__init__`: Initializes the problem with the given parameters.
 - `balance_problem`: Balances the supply and demand to ensure the total supply equals the total demand.
 - `northwest_corner_rule`, `minimum_cost_rule`, `vogel_approximation_method`: These are different methods used to find an initial feasible solution to the problem.
@@ -34,21 +33,17 @@ The core of our application. This class takes in the number of supply and demand
 
 Keeps track of the current state of the problem, including allocations, u_values, v_values, and the iteration number.
 
-
 ## CustomCell class
 
 A helper class used for creating custom cells in the Tkinter GUI. 
-
 
 ## DataInputDialog class
 
 A helper class for creating input dialogs in the Tkinter GUI. 
 
-
 ## TableauGUI class
 
 The main class for creating the graphical user interface. 
-
 
 ## get_inputs function
 
@@ -63,27 +58,27 @@ These classes are responsible for providing a user-friendly introduction and men
 
 ## Initial Screen
 
-When you first open the program, you'll be greeted with an introductory screen that covers the entire window.
+Upon the execution of the Python application, users encounter an introductory interface that spans the entire window. A simple click anywhere on this screen allows users to navigate to the primary menu.
+
+![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/81f60338-03ed-457e-bd9b-3ee460e508e7)
 
 ![Intro Screen GIF](1.gif)
 
 Click anywhere on this screen to continue to the main menu.
 
+## Main Menu Overview
 
-## Main Menu
-
-The main menu provides several options:
+The primary menu is designed with a user-friendly approach and presents a variety of options to users:
 
 ![Capture_2023_06_20_12_14_05_317](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/41b7afb1-6445-425b-962e-581d2d78562d)
 
+1. **Start the Algorithm**: The selection of this option initiates the Hitchcock Transportation Algorithm. Users are required to input the necessary data, including the number of supply and demand nodes, the respective values for these nodes, and the associated transportation costs. Once these details are entered, the algorithm sets in motion to solve the proposed transportation problem.
 
-1. **Start the Algorithm**: Click this button to begin the Hitchcock Transportation Algorithm. You'll be prompted to enter the necessary data (number of supply and demand nodes, their respective values, and the transportation costs), after which the algorithm will begin solving the problem.
-
-2. **User Manual**: This option provides a detailed description of the software and instructions on how to use it.
+2. **User Manual**: This feature provides an in-depth guide on how to navigate and utilize the software effectively. The manual elaborates on the software's features and presents step-by-step instructions for its usage.
 
 ![Capture_2023_06_20_12_16_10_419](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/5a7eb75c-4059-4297-b595-abf4dc7abf16)
 
-3. **About**: This section provides a brief about the developer and contains links to various resources:
+3. **About**: This section offers a brief introduction about the developer and provides a collection of relevant links. These include:
    - UCI ITS website: [https://its.uci.edu/](https://its.uci.edu/)
    - Professor McNally's website: [https://its.uci.edu/~mmcnally](https://its.uci.edu/~mmcnally)
    - Developer's GitHub page: [https://github.com/AminAkbariCodes](https://github.com/AminAkbariCodes)
@@ -93,9 +88,9 @@ The main menu provides several options:
 
 ![Capture_2023_06_20_12_16_15_203](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/2c3998a6-4322-453a-ab91-d79ae53a7fc5)
 
-4. **Exit**: Clicking this will close the program.
+4. **Exit**: The selection of this option results in the termination of the program.
 
-Choose the option that suits your needs to proceed.
+Users can select any of the options as per their requirements to proceed further in the application.
 
 
 # Running the Algorithm
