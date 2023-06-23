@@ -15,7 +15,7 @@ This application serves not only as an operational tool for solving transportati
 
 You can run this application in two ways:
 
-1. **Running the Source Code:** Make sure to place any additional resources like images in the same path as the source code. You need Python installed on your system to run the code. 
+1. **Running the Source Code:** Make sure to place any additional resources like images (those in the resources folder) in the same path as the source code. You need Python installed on your system to run the code. 
 
 2. **Running the Executable File:** Download the executable file from this [link](https://drive.google.com/drive/folders/1DxIXA5hL3sJQEENOdbhqFdXavTEkFn_E?usp=drive_link). Make sure to place any additional resources like images in the same path as the executable file.
 
