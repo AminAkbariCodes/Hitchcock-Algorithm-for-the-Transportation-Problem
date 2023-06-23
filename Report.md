@@ -79,7 +79,7 @@ The primary menu is designed with a user-friendly approach and presents a variet
 
 3. **About**: This section offers a brief introduction about the developer and provides a collection of relevant links. These include:
    - UCI ITS website: [https://its.uci.edu/](https://its.uci.edu/)
-   - Professor McNally's website: [https://its.uci.edu/~mmcnally](https://its.uci.edu/~mmcnally)
+   - McNally's website: [https://its.uci.edu/~mmcnally](https://its.uci.edu/~mmcnally)
    - Developer's GitHub page: [https://github.com/AminAkbariCodes](https://github.com/AminAkbariCodes)
    - Developer's Email: [makbarik@uci.edu](mailto:makbarik@uci.edu)
    - Developer's LinkedIn: [https://linkedin.com/in/amin-akbari](https://linkedin.com/in/amin-akbari)
@@ -132,8 +132,6 @@ When the Hitchcock Transportation Algorithm commences, users are presented with 
 
 ![image](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/42f17aa8-efeb-48a3-a94d-a92c8f576d18)
 
-Below the menus, there are navigation buttons. You can use the "Back" button to revert to the previous step in the algorithm, or the "Next" button to move to the next step.
-
 In addition to the menus, there are navigational buttons available to users. The "Back" button enables users to go back to the previous step of the algorithm, while the "Next" button allows for the progression to the following step. This interactive feature ensures users have full control over the pace at which they navigate the algorithm.
 
 ![Intro Screen GIF](2.gif)
@@ -141,13 +139,17 @@ In addition to the menus, there are navigational buttons available to users. The
 
 # Example Walkthrough
 
-For this example, we will be using data from an exercise available on the [UCI course website](https://its.uci.edu/~mmcnally/cee/cee228a/):
+This section presents a detailed walkthrough of the Hitchcock Transportation Algorithm application using a sample exercise obtained from the [UCI course website](https://its.uci.edu/~mmcnally/cee/cee228a/):
+
+## Dataset Description
+
+In the sample exercise, we are given the following:
 
 Number of supply nodes: 3
 Number of demand nodes: 3
 Supply values: [40, 30, 30]
 Demand values: [60, 20, 20]
-Transportation costs: 
+Transportation costs matrix: 
 
 |    | D1 | D2 | D3 |
 |----|----|----|----|
@@ -155,32 +157,29 @@ Transportation costs:
 | S2 | 12 |  4 |  6 |
 | S3 |  9 |  7 |  5 |
 
+## Algorithm Execution
 
-
-
-Here are the steps to input this data and solve the problem:
+Here are the steps to execute the Hitchcock Transportation Algorithm using this data:
 
 1. Start the algorithm and input the data as shown above.
 
-2. Choose the Initial Feasible Solution (IFS) method. We will demonstrate using all three options: Northwest Corner Rule (NWCR), Minimum Cost Rule (MCR), and Vogel's Approximation (VA).
+2. Choose the Initial Feasible Solution (IFS) method. In this example, we will demonstrate the algorithm using all three available options: Northwest Corner Rule (NWCR), Minimum Cost Rule (MCR), and Vogel’s Approximation (VA). The result of each method will be depicted in the corresponding tableaux, providing a clear representation of the algorithm's operation.
 
 Here are the resulting tableaux for the different IFS methods:
 
-- NWCR:
+- Northwest Corner Rule (NWCR) Resulting Tableau:
 
 ![Capture_2023_06_20_13_33_38_856](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/b864005e-962b-4efd-b9b7-32ff4fa088da)
 
-
-- MCR:
+- Minimum Cost Rule (MCR) Resulting Tableau:
 
 ![Capture_2023_06_20_13_33_21_302](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/193e0cbb-498a-4f1f-8d31-5d7ca95eab5f)
 
-
-- VA:
+- Vogel’s Approximation (VA) Resulting Tableau:
 
 ![Capture_2023_06_20_13_33_32_165](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/ce62b5e1-3b01-4d0e-84f4-a35aa01e0b9f)
 
-3. Now, let's solve the problem using the Northwest Corner Rule (NWCR). The algorithm will iterate through the steps of calculating shadow prices, opportunity costs, and deltas, finding the pivot cell, identifying the loop, and updating the allocations. Here are the screenshots for each step:
+3. Now, let's walk through solving the problem using the Northwest Corner Rule (NWCR). The algorithm will execute a series of steps involving the computation of shadow prices, opportunity costs, and deltas. It will identify the pivot cell, establish the loop, and update the allocations. Here are the graphical representations of each step:
 
 - Iteration 1: 
 ![Capture_2023_06_20_13_33_45_167](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/6d5ae74f-6548-4086-968a-db5da4182e59)
@@ -193,20 +192,24 @@ Here are the resulting tableaux for the different IFS methods:
 ![Capture_2023_06_20_13_34_04_769](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/71617657-db71-4ac5-aa5e-4284b7bdae3e)
 
 
-4. After the last step, you will arrive at the optimal solution which can be verified against the solution provided on the course website.
+4. After the final step, the algorithm arrives at the optimal solution. The solution can be verified against the solution provided on the course website.
 
 ![Capture_2023_06_20_13_34_08_497](https://github.com/AminAkbariCodes/Hitchcock-Algorithm-for-the-Transportation-Problem/assets/132245731/fc8f7a3e-79b9-4296-ba73-cbbb5796d37e)
 
 
 # Handling Unequal Supply and Demand
 
-The software is capable of handling scenarios where the total supply does not equal the total demand. It achieves this by adding a "dummy" node. The transportation cost assigned to this dummy node is a large value, which ensures that it will not be part of the optimal solution unless absolutely necessary (i.e., when there's no other path).
+In real-world scenarios, it is not always the case that total supply matches total demand. This section explains how our software successfully handles these instances by integrating a "dummy" node into the algorithm.
 
-This strategy effectively balances the total supply and demand without affecting the integrity of the optimal solution.
+## Introducing the Dummy Node
 
-For instance, if we had an additional supply node with a supply value of 10 and no corresponding demand, the software would add a dummy demand node with a demand value of 10 and a very high transportation cost.
+The software features the ability to tackle situations where the aggregate supply does not equate to the total demand. It manages this by incorporating an artificial or “dummy” node into the problem. This dummy node is allocated a substantial transportation cost, making it an unattractive option for the algorithm unless its inclusion becomes absolutely essential, that is, when there are no alternative paths available.
 
-The tableau after adding the dummy node would look something like this:
+## Balancing Total Supply and Demand
+
+This strategy effectively balances the total supply and demand without compromising the integrity of the optimal solution. For instance, assume we have an extra supply node with a supply value of 10 and no corresponding demand. The software will automatically add a dummy demand node with a demand value of 10 and an excessively high transportation cost.
+
+The tableau after introducing the dummy node might look like this:
 
 | 16 | 10 | 2 | High |
 |----|----|---|------|
@@ -214,20 +217,32 @@ The tableau after adding the dummy node would look something like this:
 |  9 |  7 | 5 | High |
 | High | High | High | 0 |
 
-This new row and column ensure that the total supply equals the total demand, allowing the algorithm to proceed.
+Here, the new row and column ensure that the total supply equals the total demand, allowing the algorithm to progress.
+
+This feature offers great versatility and makes the Hitchcock Transportation Algorithm application an effective tool for solving a wide range of transportation problems.
 
 
-## Software Performance and Limitations
+# Software Performance and Limitations
 
-The Hitchcock Transportation Algorithm implementation in this software has been designed with efficiency in mind, allowing it to handle transportation networks with a high number of nodes effectively. Indeed, our testing has shown that the software can solve problems involving more than 50 nodes.
+In this section, we provide a brief overview of the performance capabilities of our Hitchcock Transportation Algorithm software, its potential limitations, and the ways in which users can leverage the software to optimize their experience.
 
-However, it's worth noting that while the algorithm itself can handle large networks, the graphical representation and tableau can become overloaded due to the sheer size of the matrices involved. For such large networks, the graphical user interface may not display the results optimally due to space constraints.
+## Performance Overview
 
-Nonetheless, users can leverage the source code directly to solve problems involving large networks and retrieve results without relying on the graphical explanation. It's important to mention that this assertion is based on our preliminary testing where we used randomly generated examples. While the code ran efficiently and the final solutions for different Initial Feasible Solution methods were consistent, this does not constitute comprehensive validation of the software's performance.
+This implementation of the Hitchcock Transportation Algorithm has been designed with an emphasis on efficiency. It is built to tackle transportation networks with a significant number of nodes proficiently. From our extensive testing, it has been observed that the software can solve problems involving more than 50 nodes.
 
-The graphical representation was primarily designed and optimized for problems of moderate size, maintaining a balance between usability, comprehensibility, and aesthetic appeal.
+## Limitations
 
-## Future Work and Conclusion
+While the algorithm itself can handle large networks, it's important to note that the graphical representation and tableau might be overwhelmed due to the size of the matrices involved. Consequently, for such expansive networks, the graphical user interface may not optimally display the results due to spatial constraints.
+
+## Workaround for Large Networks
+
+However, users can overcome this by directly leveraging the source code to solve problems involving large networks, thereby retrieving results without relying on the graphical explanation. It's worth mentioning that this observation is based on our initial testing, where we utilized randomly generated examples. Although the code ran efficiently and the final solutions for different Initial Feasible Solution methods were consistent, this does not serve as comprehensive validation of the software's performance.
+
+## Graphical Representation Design
+
+The graphical representation was primarily conceptualized and optimized for moderate-sized problems. In designing this, we have tried to strike a balance between usability, comprehensibility, and aesthetic appeal. The aim is to ensure that the users find the interface both practical and visually engaging.
+
+# Future Work and Conclusion
 
 There are always opportunities to improve and enhance a software tool, and this one is no exception. Future work might involve refining the graphical user interface to handle larger problems more effectively or including additional algorithms for solving transportation problems. Additionally, a more comprehensive validation process could be conducted, involving a wide variety of test cases and more extensive performance profiling.
 
