@@ -2,7 +2,6 @@
 
 The Hitchcock-Transportation-Problem-Solver is a Python application that implements the Hitchcock algorithm for solving transportation problems in operations research. The software accepts supply and demand data as inputs, carries out the necessary computations guided by the Hitchcock algorithm, and provides a graphical representation of the algorithm's step-by-step process and results.
 
-![Image](<Link-to-an-example-image-or-screenshot-of-your-application>)
 
 ## Project Description
 
