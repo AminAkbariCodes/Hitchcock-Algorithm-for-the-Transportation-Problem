@@ -145,11 +145,11 @@ This section presents a detailed walkthrough of the Hitchcock Transportation Alg
 
 In the sample exercise, we are given the following:
 
-Number of supply nodes: 3
-Number of demand nodes: 3
-Supply values: [40, 30, 30]
-Demand values: [60, 20, 20]
-Transportation costs matrix: 
+- Number of supply nodes: 3
+- Number of demand nodes: 3
+- Supply values: [40, 30, 30]
+- Demand values: [60, 20, 20]
+- Transportation costs matrix: 
 
 |    | D1 | D2 | D3 |
 |----|----|----|----|
