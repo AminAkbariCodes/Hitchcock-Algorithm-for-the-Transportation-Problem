@@ -94,7 +94,7 @@ Users can select any of the options as per their requirements to proceed further
 ![Intro Screen GIF](1.gif)
 
 
-# Running the Algorithm
+# Execution of the Hitchcock Transportation Algorithm
 
 ## Starting the Algorithm
 
