@@ -11,6 +11,7 @@ The Hitchcock Transportation Algorithm, also known as the stepping-stone method 
 
 This application serves not only as an operational tool for solving transportation problems but also as an educational resource for understanding and applying the Hitchcock algorithm. 
 
+
 ## Getting Started
 
 You can run this application in two ways:
@@ -19,12 +20,14 @@ You can run this application in two ways:
 
 2. **Running the Executable File:** Download the executable file from this [link](https://drive.google.com/drive/folders/1DxIXA5hL3sJQEENOdbhqFdXavTEkFn_E?usp=drive_link). Make sure to place any additional resources like images in the same path as the executable file.
 
+
 ## Usage
 
 1. Start the application.
 2. Follow the prompts to input the supply and demand data.
 3. Choose the method for finding the initial feasible solution.
 4. The application will then solve the problem step-by-step, displaying the results graphically.
+
 
 ## Classes & Functions
 
@@ -42,25 +45,26 @@ You can run this application in two ways:
 
 - `Introduction` and `Menu`: Classes that provide a user-friendly introduction and menu to guide users through the use of the application.
 
+
 ## Dependencies
 
 - numpy
 - tkinter
 - PIL (Pillow)
 - pygame
+- webbrowser
+
 
 ## Contact
 
 For any inquiries, issues, or contributions, feel free to open an issue in this repository. 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
 - Thanks to the open-source community for the continuous inspiration and resources that helped in building this project.
 
+
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
