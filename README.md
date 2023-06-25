@@ -62,7 +62,7 @@ For any inquiries, issues, or contributions, feel free to open an issue in this 
 
 ## Acknowledgments
 
-- Thanks to the open-source community for the continuous inspiration and resources that helped in building this project.
+Thanks to the open-source community for the continuous inspiration and resources that helped in building this project.
 
 
 ## License
